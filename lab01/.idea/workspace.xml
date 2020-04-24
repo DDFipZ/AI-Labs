@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f07385f-7aa5-408e-91aa-caa3d5448c0e" name="Default Changelist" comment="" />
+    <list default="true" id="0f07385f-7aa5-408e-91aa-caa3d5448c0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflex_driven_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/reflex_driven_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table_driven_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/table_driven_agent.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Y7eZOtloiLHPLCWw76AEu1Qxmu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +31,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="table_driven_agent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -74,6 +85,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1059" y="442" key="FileChooserDialogImpl" timestamp="1586859541797">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1059" y="442" key="FileChooserDialogImpl/0.0.2560.1400/2560.353.1920.1040@0.0.2560.1400" timestamp="1586859541797" />
     <state width="637" height="178" key="GridCell.Tab.0.bottom" timestamp="1584436172259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -90,8 +105,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="637" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584436172259" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lab01$table_driven_agent.coverage" NAME="table_driven_agent Coverage Results" MODIFIED="1584217817984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1586859495797">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.353.1920.1040@0.0.2560.1400" timestamp="1586859495797" />
   </component>
 </project>

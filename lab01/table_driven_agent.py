@@ -6,13 +6,27 @@ table = {
     ((A, "Dirty"),): "Suck",
     ((B, "Clean"),): "Left",
     ((B, "Dirty"),): "Suck",
+
     ((A, "Clean"), (A, "Clean")): "Right",
     ((A, "Clean"), (A, "Dirty")): "Suck",
     ((A, "Dirty"), (B, "Clean")): "Left",
+    ((A, "Clean"), (B, "Dirty")): "Suck",
+
+    ((B, "Clean"), (B, "Clean")): "Left",
+    ((B, "Clean"), (B, "Dirty")): "Suck",
+    ((B, "Dirty"), (A, "Clean")): "Right",
+    ((B, "Clean"), (A, "Dirty")): "Suck",
+
     #...
     ((A, "Clean"), (A, "Clean"), (A, "Clean")): "Right",
-    ((A, "Clean"), (A, "Clean"), (B, "Dirty")): "Suck",
+    ((A, "Clean"), (A, "Clean"), (A, "Dirty")): "Suck",
     ((A, "Clean"), (A, "Dirty"), (B, "Clean")): "Left",
+
+    ((B, "Clean"), (B, "Clean"), (B, "Clean")): "Left",
+    ((B, "Clean"), (B, "Clean"), (B, "Dirty")): "Suck",
+    ((B, "Clean"), (A, "Dirty"), (B, "Clean")): "Left",
+    ((B, "Clean"), (B, "Clean"), (A, "Dirty")): "Suck"
+
     #...
 
 }

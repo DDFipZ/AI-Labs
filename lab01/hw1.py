@@ -1,9 +1,13 @@
 A = "A"
 B = "B"
+C = "C"
+D = "D"
 
 Environment = {
     A: "Dirty",
     B: "Dirty",
+    C: "Dirty",
+    D: "Dirty",
     "Current": A
 }
 
@@ -14,7 +18,11 @@ def REFLEX_VACUUM_AGENT(loc_st):  #Determine Action
     if loc_st[0] == A:
         return "Right"
     if loc_st[0] == B:
+        return "Down"
+    if loc_st[0] == D:
         return "Left"
+    if loc_st[0] == C:
+        return "Up"
 
 
 def Sensors():  #Sense Environment
@@ -30,6 +38,18 @@ def Actuators(action):  #Modify Environment
         Environment["Current"] = B
     elif action == "Left" and location == B:
         Environment["Current"] = A
+    elif action == "Right" and location == C:
+        Environment["Current"] = D
+    elif action == "Left" and location == D:
+        Environment["Current"] = C
+    elif action == "Up" and location == D:
+        Environment["Current"] = B
+    elif action == "Up" and location == C:
+        Environment["Current"] = A
+    elif action == "Down" and location == A:
+        Environment["Current"] = C
+    elif action == "Down" and location == B:
+        Environment["Current"] = D
 
 
 def run(n, make_agent):  #Run the agent through n steps
@@ -44,4 +64,4 @@ def run(n, make_agent):  #Run the agent through n steps
         print("{:8s}{:12s}{:8s}".format(action, location, status))
 
 
-run(10, REFLEX_VACUUM_AGENT)
+run(20, REFLEX_VACUUM_AGENT)

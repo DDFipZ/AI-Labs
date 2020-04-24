@@ -1,0 +1,6 @@
+1. If the successor nodes are inserted at the front of the fringe,
+ it is Last In First Out
+
+2. (Look in the search.py file)
+
+3. 
