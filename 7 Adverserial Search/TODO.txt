@@ -1,0 +1,2 @@
+Make it so somebody wins
+Allow the user to pick a number

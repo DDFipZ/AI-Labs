@@ -1,0 +1,14 @@
+1.  
+    At depth 0, the branching factor is 9, at depth 1 it is 8
+
+2.
+    The maximal depth is 9 as there is 9 tiles
+
+3. 
+
+
+4.  
+    States after the terminal state is not explored
+
+5.
+    

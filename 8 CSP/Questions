@@ -1,0 +1,28 @@
+1.
+    create_australia_csp sets the variable names for the states,
+    makes a dictionary with states as keys with colors as potential values,
+    gives each state its neighbor states with the use of dictionaries.
+
+2. 
+    backtracking_search() returns the branch taken to color the states
+
+3. 
+    assignment is a dictionary used to give the state variables colors,
+    the key being the state and the value being color.
+
+4. 
+    variable are representing the states.
+
+5.
+    the order_domain_values method returns the domain dictionary,
+    containing the states and a list of values.
+    The for-loop cycles through all values of said list.
+
+6.
+    Not quite sure what is bein asked
+
+7.
+    As a result of not being sure of question 5, I cannot answer this question
+
+8.
+    del assignment[variable] deletes the variable at the index

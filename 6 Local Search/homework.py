@@ -2,7 +2,7 @@ import random
 import queens_fitness
 
 p_mutation = 0.2
-num_of_generations = 1000
+num_of_generations = 5000
 
 
 def genetic_algorithm(population, fitness_fn, minimal_fitness):
@@ -38,7 +38,7 @@ def genetic_algorithm(population, fitness_fn, minimal_fitness):
         # Add new population to population, use union to disregard
         # duplicate individuals
         population = population.union(new_population)
-        if len(population) >= 20:
+        if len(population) >= 50:
             listpopulation = list(population)
             listpopulation.sort(key=fitness_function)
             half = len(listpopulation) // 2
